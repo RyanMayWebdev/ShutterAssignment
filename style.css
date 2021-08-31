@@ -612,19 +612,19 @@ MEDIA QUERIES
   }
 
   .contactContainer {
-    flex-direction: row;
+    height: 500px;
     justify-content: space-evenly;
     position: relative;
   }
 
   .contactForm {
+    align-self: flex-start;
     position: absolute;
-    top: -75px;
   }
 
   .contactInfo,
   .contact nav {
-    margin-top: 200px;
+    align-self: flex-end;
   }
 
   .contact form {
